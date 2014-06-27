@@ -1,0 +1,63 @@
+
+body {
+  background-color: #eeff44;
+}
+
+.tagline {
+  margin-bottom: 20px;
+}
+
+.label a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-detail.row {
+  margin: 1em 0;
+  border-bottom: 1px solid #eee;
+}
+.product-detail img {
+  max-height: 150px;
+  max-width: 150px;
+}
+.product-detail h2 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.product-description {
+  margin-top: 10px;
+}
+
+.list-rating {
+  margin: 0;
+  padding: 0;
+}
+.list-rating li {
+  display: inline;
+  list-style-type: none;
+}
+
+.navbar-default {
+  background-color: #229900;
+}
+
+.navbar-default .navbar-nav > li {
+  cursor: pointer;
+  background-color: #0033bb;
+  padding: 12px 12px;
+  margin-top: -7px;
+  color: #f0eee1;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li:hover {
+  background-color: #01e;
+}
+.navbar-default .navbar-nav > li.active {
+  color: #fff;
+  background-color: #01e;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
