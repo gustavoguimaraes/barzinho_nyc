@@ -2,7 +2,7 @@ var App = Ember.Application.create({
   LOG_TRANSITIONS: true
 });
 
-//Need to reseach on location
+//Need to research on location
 App.Router.reopen({
   location: 'history'
 });
@@ -26,8 +26,6 @@ App.IndexRoute = Ember.Route.extend({
 });
 
 
-
-
 // menus
 App.MenusRoute = Ember.Route.extend({
   model: function() {
@@ -40,12 +38,15 @@ App.MenusIndexRoute = Ember.Route.extend({
   }
 });
 
+//controllers
 App.MenusController = Ember.ArrayController.extend({
-  sortProperties: ['title'],
-  count: function() {
-    return this.get('length');
-  }.property('length'),
+  sortProperties: ['title']
+});
 
+App.MenusIndexController = Ember.ArrayController.extend({
+  menuCount: function() {
+    return this.get('length');
+  }.property('length')
 });
 
 App.MenuReviewsNewController = Ember.ObjectController.extend({
